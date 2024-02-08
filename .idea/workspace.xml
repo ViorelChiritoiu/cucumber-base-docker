@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="058a1836-8bd4-4b6c-97ad-0a2a41d114f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cucumber/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/apis/ApiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/apis/CartApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/apis/SpecBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/constants/DriverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/constants/EndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/constants/EnvType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/context/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/customtype/CustomDataTableType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/customtype/CustomParameterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/factory/ChromeDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/factory/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/factory/DriverManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/factory/FirefoxDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/hooks/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/objects/BillingDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/objects/Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/objects/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/objects/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/pages/PageFactoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/pages/StorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/runner/TestNGRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/CartStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/CheckoutStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/CustomerStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/DataTableSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/MySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/stepdefinitions/StoreStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/utils/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/utils/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/dev.config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/add_to_cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/guest_place_an_order.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/stg.config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PglalhiHbN7fMArYAOGTPfdiZG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/selenium_framework/selenium-docker",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\selenium_framework\CucumberBase\src\test\java\com\cucumber\factory" />
+      <recent name="C:\selenium_framework\CucumberBase\src\test\resources" />
+      <recent name="C:\selenium_framework\CucumberBase\src\test\java\com\cucumber\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\selenium_framework\CucumberBase\target\cucumber-report" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cucumber.constants" />
+      <recent name="com.cucumber.utils" />
+      <recent name="com.cucumber.steps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestNGRunnerTest">
+    <configuration name="Scenario: Add one quantity from Store" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/add_to_cart.feature" />
+      <option name="GLUE" value="com.cucumber.stepdefinitions com.cucumber.types com.cucumber.customtype com.cucumber.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBase" />
+      <option name="NAME_FILTER" value="^Add one quantity from Store$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add one quantity from Store$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add one quantity from Store" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: SINGLE COLUMN WITH HEADER DATA TABLE TYPE" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/datatables.feature" />
+      <option name="GLUE" value="com.cucumber.steps com.cucumber.types" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBase" />
+      <option name="NAME_FILTER" value="^SINGLE COLUMN WITH HEADER DATA TABLE TYPE$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SINGLE COLUMN WITH HEADER DATA TABLE TYPE$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SINGLE COLUMN WITH HEADER DATA TABLE TYPE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: SINGLE COLUMN WITH NO HEADER DATA TABLE TYPE" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/datatables.feature" />
+      <option name="GLUE" value="com.cucumber.steps com.cucumber.types" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBase" />
+      <option name="NAME_FILTER" value="^SINGLE COLUMN WITH NO HEADER DATA TABLE TYPE$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SINGLE COLUMN WITH NO HEADER DATA TABLE TYPE$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SINGLE COLUMN WITH NO HEADER DATA TABLE TYPE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Use default payment option" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/guest_place_an_order.feature" />
+      <option name="GLUE" value="com.cucumber.stepdefinitions com.cucumber.customtype com.cucumber.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBase" />
+      <option name="NAME_FILTER" value="^Use default payment option$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Use default payment option$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Use default payment option" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cucumber.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cucumber.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.cucumber.runner.TestNGRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestNGRunnerTest" />
+        <item itemvalue="Cucumber Java.Scenario: Use default payment option" />
+        <item itemvalue="Cucumber Java.Scenario: Add one quantity from Store" />
+        <item itemvalue="Cucumber Java.Scenario: SINGLE COLUMN WITH HEADER DATA TABLE TYPE" />
+        <item itemvalue="Cucumber Java.Scenario: SINGLE COLUMN WITH NO HEADER DATA TABLE TYPE" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="058a1836-8bd4-4b6c-97ad-0a2a41d114f2" name="Changes" comment="" />
+      <created>1683886672545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683886672545</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
