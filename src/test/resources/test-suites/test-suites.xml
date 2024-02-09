@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="flight-reservation" parallel="tests" thread-count="3" >
+    <test name="passengers-count-1" >
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-1.json" />
+        <classes>
+            <class name="com.cucumber.runner.TestNGRunnerTest" />
+        </classes>
+    </test>
+</suite>
