@@ -4,7 +4,7 @@ FROM bellsoft/liberica-openjdk-alpine:11
 RUN apk add curl jq
 
 # workspace
-WORKDIR /home/selenium-docker
+WORKDIR /home/cucumber-base
 
 # add the required files to run tests
 ADD target/docker-resources .
