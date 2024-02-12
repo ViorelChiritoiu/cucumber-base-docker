@@ -1,6 +1,7 @@
 package com.cucumber.base;
 
-import com.cucumber.utils.ConfigLoader;
+import com.cucumber.constants.Constants;
+import com.cucumber.utils.Config;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,7 +23,7 @@ public class BasePage {
     }
 
     public void load(String endPoint) {
-        driver.get(ConfigLoader.getInstance().getBaseUrl() + endPoint);
+        driver.get(Config.get(Constants.APP_URL) + endPoint);
     }
 
     public void waitForOverlaysToDisappear(By overlay) {
