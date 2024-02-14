@@ -38,5 +38,8 @@ echo "Selenium Grid is up and running. Running the test...."
 java -cp 'libs/*' io.cucumber.core.cli.Main -p pretty features \
      --glue com/cucumber/stepdefinitions --glue com/cucumber/hooks --glue com/cucumber/customtype
 
-
-
+java -cp 'libs/*' \
+     -Dselenium.grid.enabled=true \
+     -Dselenium.grid.hubHost="${HUB_HOST:-hub}" \
+     -Dbrowser="${BROWSER:-chrome}" \
+     -Dthreadcount "${THREAD_COUNT:-1}"
