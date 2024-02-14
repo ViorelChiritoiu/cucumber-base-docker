@@ -146,12 +146,12 @@
                     </suiteXmlFiles>
                     <threadCount>2</threadCount>
                     <reportsDirectory>target/test-output</reportsDirectory>
-                    <!--<properties>
+                    <properties>
                         <property>
                             <name>dataproviderthreadcount</name>
                             <value>2</value>
                         </property>
-                    </properties>-->
+                    </properties>
                 </configuration>
             </plugin>
             <!-- To copy all the dependencies to run our tests as part of "mvn package" -->
@@ -187,12 +187,12 @@
                         <goals>
                             <goal>test-jar</goal>
                         </goals>
-<!--                        <configuration>
+                        <configuration>
                             <includes>
                                 <include>**/*.class</include>
                                 <include>**/*.feature</include>
                             </includes>
-                        </configuration>-->
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
