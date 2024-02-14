@@ -35,6 +35,6 @@ done
 echo "Selenium Grid is up and running. Running the test...."
 
 # Start the java command
-java -cp 'libs/*' io.cucumber.core.cli.Main \
-     -p pretty features \
-     --glue com/cucumber/stepdefinitions --glue com/cucumber/hooks --glue com/cucumber/customtype
+java -cp "com.cucumber/*;features;libs/*" io.cucumber.core.cli.Main \
+     -p pretty \
+     --glue com/cucumber/stepdefinitions --glue com/cucumber/hooks --glue com/cucumber/customtype features
