@@ -42,4 +42,4 @@ java -cp 'libs/*' \
      -Dselenium.grid.enabled=true \
      -Dselenium.grid.hubHost="${HUB_HOST:-hub}" \
      -Dbrowser="${BROWSER:-chrome}" \
-     -threadcount "${THREAD_COUNT:-1}" \
+     -threadcount "${THREAD_COUNT:-1}"
