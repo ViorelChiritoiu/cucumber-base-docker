@@ -237,7 +237,7 @@
                             <projectName>${project.name}</projectName>
                             <skip>false</skip>
                             <outputDirectory>${project.build.directory}</outputDirectory>
-                            <inputDirectory>${project.build.directory}/cucumber-report</inputDirectory>
+                            <inputDirectory>src/test/resources/cucumber-report</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>

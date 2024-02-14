@@ -20,7 +20,7 @@ import java.util.List;
 import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
 
 @CucumberOptions
-        (plugin = {"pretty", "html:target/cucumber-report/cucumber.html", "json:target/cucumber-report/cucumber.json"},
+        (plugin = {"pretty", "html:target/cucumber-report/cucumber.html", "json:src/test/resources/cucumber-report/cucumber.json"},
                 snippets = CAMELCASE,
                 glue = {"com.cucumber.stepdefinitions", "com.cucumber.hooks", "com.cucumber.customtype"},
                 features = "src/test/resources/features"
